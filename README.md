@@ -28,7 +28,7 @@ This project implements a symbolic regression algorithm using genetic programmin
 
 ## Performance Considerations
 - **Computation Time**: The algorithm is computationally expensive due to the large population size and multiple generations.
-- **Parameter Choice**:  I choose to give the values of population size, generations, and mutation/crossover rates high in order to have the best search performance. But as a result, the execution time is quite long (nearly 30min). I couldn't bring the execution time down.
+- **Parameter Choice**:  I choose to give the values of population size, generations, and mutation/crossover rates high in order to have the best search performance. But as a result, the execution time is quite long (nearly 40min). I couldn't bring the execution time down.
 
 ## Results
 | Problem | Fitness Value |
