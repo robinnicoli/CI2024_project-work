@@ -24,7 +24,8 @@ This project implements a symbolic regression algorithm using genetic programmin
    - The algorithm iterates over multiple generations, refining the population and the best expression is selected based on its fitness score.
 
 6. **Final Output**:
-   - The best expression for each dataset is stored in `s335017.py`.
+   - The best expression for each dataset is stored in `s335017.py`. I notice that for f1 and f6 the algorithm finds that there is no better approximation than x0 and x1. Futhermore for f7 the algorithm fails to find a good model. Theses are clearly errors but I couldn't find the solutions to fix them.
+   
 
 ## Performance Considerations
 - **Computation Time**: The algorithm is computationally expensive due to the large population size and multiple generations.
